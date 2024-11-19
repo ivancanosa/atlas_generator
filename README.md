@@ -8,6 +8,7 @@ A generic atlas generator for 2D packaging of images.
 ## Features
 - Generates multiple atlases with specified maximum width and height.
 - Accepts a list of image files or directories as input.
+- Generates a json output in which describes in which atlas is each image, its position and size.
 
 ## How to use
 ```bash
