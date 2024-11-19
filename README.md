@@ -3,7 +3,7 @@ A generic atlas generator for 2D packaging of images.
 
 ## Requirements
 - CMake +3.10
-- A C++17-compatible compiler
+- A C++20-compatible compiler
 
 ## Features
 - Generates multiple atlases with specified maximum width and height.
