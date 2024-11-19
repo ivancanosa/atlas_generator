@@ -1,0 +1,3 @@
+add_executable(bin_packing_tests bin_packing_tests.cpp)
+target_link_libraries(bin_packing_tests PRIVATE bin_packing GTest::gtest_main)
+gtest_discover_tests(bin_packing_tests)
