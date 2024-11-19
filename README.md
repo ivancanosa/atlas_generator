@@ -46,3 +46,6 @@ ctest
 sudo cmake --install .  
 ```
 
+## TODO
+- Add an option for padding to reduce texture bleeding
+
