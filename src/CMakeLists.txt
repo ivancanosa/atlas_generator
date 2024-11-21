@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 
+option(BUILD_SHARED_LIBS "Build the shared library" OFF)
+
 include(FetchContent)
 include(cmake/extern.cmake)
 include(CTest)
