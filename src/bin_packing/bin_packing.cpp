@@ -63,6 +63,10 @@ auto bin_packing(const std::vector<Item>& items,
     auto sorted_items = sort_decreasing_height();
 
     for (const auto& item : sorted_items) {
+        if (item.rect.size.x > binSize.x || item.rect.size.y > binSize.y) {
+            throw std::runtime_error("Item too large for the bin!");
+        }
+
         bool placed = false;
 
         // Try to place the item in an existing bin
